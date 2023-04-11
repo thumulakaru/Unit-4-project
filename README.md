@@ -1,12 +1,10 @@
-# Unit 4 Project: Code Sharing Social Media
+# Unit 4 Project: Physics Questions Sharing Social Media
 
 ## Criteria A: Planning
 
 ## Problem definition(Client identification)
 
-Due to lack of respurces provided by his school a student wants to have more physics questions that challenges him to think in different angles. Because of this the student would like
-have a platform where he could communicate well with other students to share physics questions that he finds with other students who are in the same course and also willing to share 
-the questions that they find.
+I am a high school student living in Karuizawa. In our school quarter of our grade takes physics in International Baccaulaurate Diploma Program(IBDP). Due to restrictions from the curriculum the students are having a hard time to find proper questions that are alligned with IB standards. And whenever the students share questions with each other using SNS like messenger or instagram it's really hard to revisit the same question again and also to pass it down to our juniors. Because of these issues a need was risen for a social networking system to share physics questions within ourselves
 
 ## Proposed Solution
 
@@ -93,7 +91,7 @@ object-oriented format and makes the development easy[^5]
 #### Decomposition
 
 In computational thinking, decomposition refers to breaking a complex problem or system into parts that are easier to
-conceive, understand, program, and maintain. 
+conceive, understand, program, and maintain.
 
 #### Pattern recognition, generalization and abstraction
 
