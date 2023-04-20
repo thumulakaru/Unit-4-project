@@ -4,43 +4,72 @@
 
 ## Problem definition(Client identification)
 
-I am a high school student living in Karuizawa. In our school quarter of our grade takes physics in International Baccaulaurate Diploma Program(IBDP). Due to restrictions from the curriculum the students are having a hard time to find proper questions that are alligned with IB standards. And whenever the students share questions with each other using SNS like messenger or instagram it's really hard to revisit the same question again and also to pass it down to our juniors. Because of these issues a need was risen for a social networking system to share physics questions within ourselves
+I am a high school student living in Karuizawa. In our school quarter of our grade takes physics in International Baccaulaurate Diploma Program(IBDP). Due to restrictions from the curriculum the students are having a hard time to find proper questions that are alligned with IB standards. And whenever the students share questions with each other using SNS like messenger or instagram it's really hard to revisit the same question again and also to pass it down to our juniors. Because of these issues a need was risen for a social networking system to share physics questions within ourselves.
 
 ## Proposed Solution
+Considering the client's the requirements, an adequate solution would be a SNS that would take the style of social-media webstie. Though one of the most common programming tools to build a website is Javascript it's client sided language[^2] which poses a threat to the security of the website through the easy access to the loopholes which could potentially result in using them for malicious purposes. To avoid this python is a better alternative as it is not client sided, open source and extensive[^3].
 
-Considering the client's requirements, an adequate solution 
-Graphical User Interface) that can store data into a database. Python would be an adequate programming language for the
-solution as it is open source, it is mature and supported in multiple platforms (platform-independent) including macOS,
-Windows, Linux.[^2]For the database, SQLite would be an adequate solution as it is an embedded, serverless relational
-database which means the program and the database can be both localized.[^3]To interface with the SQLite database,
-SQLAlchemy is the choice to go as it support ORM(Object Relational Mapper). An ORM is a database abstraction layer that
-sits as an intermediary between the code and the database engine[^4], which simple queries and makes the code more
-concise. As for the GUI, KivyMD is chosen for its elegant and simpleness. This GUI framework uses is structured in
-object-oriented format and makes the development easy[^5]
+[^2]: “Why Use Javascript in 2022? 8 Disadvantages and Advantages of Javascript.” Tino Agency, https://tino.design/blog/14-why-use-javascript-in-2022-8-disadvantages-and-advantages-of-javascript.
 
-[^2]: Python Geeks. “Advantages of Python: Disadvantages of Python.” Python Geeks, 26 June
-
-2021, https://pythongeeks.org/advantages-disadvantages-of-python/.
-
-[^3]: S, Ravikiran A. “What Is Sqlite? and When to Use It?” *Simplilearn.com*, Simplilearn, 16 Feb.
-
-2023, https://www.simplilearn.com/tutorials/sql-tutorial/what-is-sqlite.
-
-[^4]:  Uwase, Ange. “Here Is the Reason Why SQLAlchemy Is so Popular.” Medium, 8 Feb.
-
-2021,https://towardsdatascience.com/here-is-the-reason-why-sqlalchemy-is-so-popular-43b489d3fb00#:~:text=SQLAlchemy%20is%20the%20ORM%20of.
-
-[^5]: Gupta, Kaustubh. “What Is KivyMD: Creating Android Machine Learning Apps Using KivyMD.” *Analytics Vidhya*, 6 July
-
-2021, https://www.analyticsvidhya.com/blog/2021/06/creating-android-ml-app-kivymd/#:~:text=KivyMD%20is%20built%20on%20the.
+[^3]:  
 
 **Design statement**
 
+I will design a social media platform using Bootstrap, HTML, CSS and Flask which will use a SQLite database to store data for my schoolmates. The website will allow everyone to post pysics questions and descriptions and like and dislike posts to moderate content. Necessary data will be hashed inorder to keep the database secure. It will take approximately 1 month to complete and the website will be evaluated according to the following criterias: 
+
 ## Success Criteria
 
-1. 
+1. The website must keep users separately with an encrypted login system.
+2. The website must allow posting of questions.
+3. The website must allow to like the posted questions to increase authenticity.
+4. The website will be able to sort the posts according to the number of likes and date posted.
+5. The website will have a search function to search for post.
+6. The website will allow users to change passwords.
 
 # Criteria B: Design
+| Task No  | Planned Action  | Planned Outcome | Time estimate  | Target completion date  | Criterion |
+|:----------|:-------------------------|:----------|:----------|:----------|:----------|
+| 1   | Coding the login screen |  Get a specific design for the login screen   | 30 mins  | 2023.03.31    | C    |
+| 2   | Write the code to get dat from login screen    | Get data through the data   | 1 hr  | 2023.04.01    | C    |
+| 3   | Write the problem definition    | Have a clear and direct problem definition   | 30 mins   | 2023.04.03   | A   |
+| 4   |   Drawing ER diagrams  | Have a clear idea of how the database would look like   | 10 mins  | 2023.04.04    | B |
+| 5   | Drawing  Wirefram Diagram  | Have a clear idea of the structure of the website | 40 mins  | 2023.04.05    | B  | | Cell 1    | Cell 2    | Cell 3    | Cell 4    | 2023.04.06    | Cell 6    |
+| Cell 1    | Cell 2    | Cell 3    | Cell 4    | 2023.04.07    | Cell 6    |
+| Cell 1    | Cell 2    | Cell 3    | Cell 4    | 2023.04.08    | Cell 6    |
+| Cell 1    | Cell 2    | Cell 3    | Cell 4    | 2023.04.09    | Cell 6    |
+| 1 | 2 | 3 | 4 | 2023.04.10 | 6|
+| 1 | 2 | 3 | 4 | 2023.04.11 | 6|
+| 1 | 2 | 3 | 4 | 2023.04.12 | 6|
+| 1 | 2 | 3 | 4 | 2023.04.13 | 6|
+| 1 | 2 | 3 | 4 | 2023.04.14 | 6|
+| 1 | 2 | 3 | 4 | 2023.04.15 | 6|
+| 1 | 2 | 3 | 4 | 2023.04.16 | 6|
+| 1 | 2 | 3 | 4 | 2023.04.17 | 6|
+| 1 | 2 | 3 | 4 | 2023.04.18 | 6|
+| 1 | 2 | 3 | 4 | 2023.04.19 | 6|
+| 1 | 2 | 3 | 4 | 2023.04.20 | 6|
+| 1 | 2 | 3 | 4 | 2023.04.21 | 6|
+| 1 | 2 | 3 | 4 | 2023.04.22 | 6|
+| 1 | 2 | 3 | 4 | 2023.04.23 | 6|
+| 1 | 2 | 3 | 4 | 2023.04.24 | 6|
+| 1 | 2 | 3 | 4 | 2023.04.25 | 6|
+| 1 | 2 | 3 | 4 | 2023.04.26 | 6|
+| 1 | 2 | 3 | 4 | 2023.04.27 | 6|
+| 1 | 2 | 3 | 4 | 2023.04.28 | 6|
+| 1 | 2 | 3 | 4 | 2023.04.29 | 6|
+| 1 | 2 | 3 | 4 | 2023.04.30 | 6|
+| 1 | 2 | 3 | 4 | 2023.05.01 | 6|
+| 1 | 2 | 3 | 4 | 2023.05.02 | 6|
+| 1 | 2 | 3 | 4 | 2023.05.03 | 6|
+| 1 | 2 | 3 | 4 | 2023.05.04 | 6|
+| 1 | 2 | 3 | 4 | 2023.05.05 | 6|
+| 1 | 2 | 3 | 4 | 2023.05.06 | 6|
+| 1 | 2 | 3 | 4 | 2023.05.07 | 6|
+| 1 | 2 | 3 | 4 | 2023.05.08 | 6|
+| 1 | 2 | 3 | 4 | 2023.05.09 | 6|
+| 1 | 2 | 3 | 4 | 2023.05.10 | 6|
+| 1 | 2 | 3 | 4 | 2023.05.11 | 6|
+
 
 ## System Diagram
 
@@ -84,7 +113,7 @@ object-oriented format and makes the development easy[^5]
 
 ## List of techniques used
 
-1. 
+1. THe hell
 
 ## Computational Thinking
 
