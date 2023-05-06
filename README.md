@@ -37,7 +37,7 @@ I will design a social media platform using Bootstrap, HTML, CSS and Flask which
 ## Data Storage
 ![ER Diagram](https://github.com/thumulakaru/Unit-4-project/blob/main/assets/ER_diagram.png)
 
-**Fig.2** *ER diagram of the Website
+**Fig.2** *ER diagram of the Website*
 
 
 ![users Data entry](https://github.com/thumulakaru/Unit-4-project/blob/main/assets/users_data_entry.png)
