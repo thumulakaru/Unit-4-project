@@ -71,7 +71,7 @@ I will design a social media platform using Bootstrap, HTML, CSS and Flask which
 **Fig.5** *UML Diagram of the website*
 
 ## Wireframe
-![UML Diagram]()
+![Wireframe Diagram](https://github.com/thumulakaru/Unit-4-project/blob/main/assets/Wireframe_diag.jpg)
 
 **Fig.6** *Wireframe of the website*
 
@@ -529,7 +529,7 @@ The above function creates two users and two posts which makes it easier for me 
 
 ## Evaluation by Peer
 
-Ask Bernard for this
+
 
 ## Extensibility
 
