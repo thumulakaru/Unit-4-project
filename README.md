@@ -1,5 +1,6 @@
 # Unit 4 Project: Physics Questions Sharing Social Media
 ![DALLE-E Image](https://github.com/thumulakaru/Unit-4-project/blob/main/assets/DALL%C2%B7E%20-%20an%20IB%20physics%20student%20trying%20to%20find%20questions%20oil%20painting.png)
+[^1]
 
 [^1]: "an IB physics student trying to find questions oil painting" by DALL E 2, Open AI,
 Accessed 1st May 2023
