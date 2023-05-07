@@ -129,11 +129,6 @@ class database_handler:
         user = self.get_user(username)
         user.password = new_pwd
         self.session.commit()
-
-    def insert_dummy(self, title, content, time, likes, user_id):
-        new_post = posts(user_id=user_id, title=title, content=content, datetime=time, likes=likes)
-        self.session.add(new_post)
-        self.session.commit()
-
+        
 create_base()
 test = database_handler("networking.sqlite")
