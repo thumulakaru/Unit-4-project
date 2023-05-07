@@ -1,17 +1,33 @@
 # Unit 4 Project: Physics Questions Sharing Social Media
+![DALLE-E Image](https://github.com/thumulakaru/Unit-4-project/blob/main/assets/DALL%C2%B7E%20-%20an%20IB%20physics%20student%20trying%20to%20find%20questions%20oil%20painting.png)
+
+[^1]: "an IB physics student trying to find questions oil painting" by DALL E 2, Open AI,
+Accessed 1st May 2023
 
 ## Criteria A: Planning
 
+
 ## Problem definition(Client identification)
 
-I am a high school student living in Karuizawa. In our school a quarter of our grade takes physics in International Baccaulaurate Diploma Program(IBDP). Due to restrictions from the curriculum the students are having a hard time to find proper questions that are alligned with IB standards. And whenever the students share questions with each other using SNS like messenger or instagram it's really hard to revisit the same question again and to understand the questions content at a glance because of the unorganised manner.  Also it is really hard to filter out the good and bad questions and also to pass it down to our juniors, therefore it would be useful to earleir posts. Because of these issues a need was risen for a social networking system to share physics questions within ourselves. I would like to have different users who can post questions. It has to be secure and thoroughly organised.
+I am a high school student living in Karuizawa. In our school a quarter of our grade takes physics in International Baccaulaurate Diploma Program(IBDP). Due to restrictions from the curriculum the students are having a hard time to find proper questions that are alligned with IB standards. And whenever the students share questions with each other using SNS like messenger or instagram it's really hard to revisit the same question again and to understand the questions content at a glance because of the unorganised manner.  Also it is really hard to filter out the good and bad questions and also to pass it down to our juniors. Also it is really hard to see old questions. Because of these issues a need was risen for a social networking system to share physics questions within ourselves. I would like to have different users who can post questions. It has to be secure and thoroughly organised.
 
 ## Proposed Solution
-Considering the client's the requirements, an adequate solution would be a SNS that would take the style of social-media webstie. Though one of the most common programming tools to build a website is Javascript it's client sided language[^2] which poses a threat to the security of the website through the easy access to the loopholes which could potentially result in using them for malicious purposes. To avoid this python is a better alternative as it is not client sided, open source and extensive[^3].
+Considering the client's the requirements, an adequate solution would be a SNS that would take the style of social-media webstie. Though one of the most common programming tools to build a website is Javascript it's client sided language[^2] which poses a threat to the security of the website through the easy access to the loopholes which could potentially result in using them for malicious purposes. To avoid this python is a better alternative as it is not client sided, open source and extensive[^3]. To host the website Flask would be a great option as it is highly scalable and provides great control over the code[^4]. As for the database it is better to use a DBMS(Database Management System) which is better to run with smallto medium http requests as the the website is small-scaled. Thus, SQLite is a viable option as it excels at small-medium http reequests and also can run independently after installation[^5]. To interface with SQLite SQLAlchemy would be a one of the best options as it is a seamless integration with web aplications like Flask. Also because it uses eager loading the performance speed is increased[^6]. As for the user interface Bootstrap5 is a very viable option as it is compatible with many of the mordered browsers(Cross-browser compatibility)[^7]. To ensure the security of the website JWT tokens are an adequate solution as it is a client sided token which makes the servers run smoother[^8].
 
 [^2]: “Why Use Javascript in 2022? 8 Disadvantages and Advantages of Javascript.” Tino Agency, https://tino.design/blog/14-why-use-javascript-in-2022-8-disadvantages-and-advantages-of-javascript.
 
-[^3]:  
+[^3]: "Python Geeks. “Advantages of Python: Disadvantages of Python.” Python Geeks, 26 June
+2021, https://pythongeeks.org/advantages-disadvantages-of-python 
+
+[^4]: “6 Reasons Why Flask Is Better Framework for Web Application Development.” Able, https://able.bio/hardikshah/6-reasons-why-flask-is-better-framework-for-web-application-development--cd398f73. 
+
+[^5]: S, Ravikiran A. “What Is Sqlite? and When to Use It?” Simplilearn.com, Simplilearn, 16 Feb. 2023, https://www.simplilearn.com/tutorials/sql-tutorial/what-is-sqlite#:~:text=SQLite%20is%20used%20to%20develop,some%20data%20within%20an%20application. 
+
+[^6]: Johnston, Paul. “10 Reasons to Love Sqlalchemy.” Blogs by Pajhome, https://pajhome.org.uk/blog/10_reasons_to_love_sqlalchemy.html. 
+
+[^7]: Prabhu, John. “Why Should You Use Bootstrap?: Responsive Front-End Development.” Tech Blogs by TechAffinity, 4 Jan. 2023, https://techaffinity.com/blog/why-use-bootstrap-for-frontend-design/. 
+
+[^8]: Nwokwo, Chisom. “Why Should You Use JWT's?” Educative, https://www.educative.io/answers/why-should-you-use-jwts. 
 
 **Design statement**
 
@@ -22,8 +38,8 @@ I will design a social media platform using Bootstrap, HTML, CSS and Flask which
 1. The website must keep users separately with an encrypted login system.(Issue Tackled: "I would like to have different users who can post questions")
 2. The website must allow posting of questions and viewing them.(Issue Tackled: "having a hard time to find proper questions" and "understand the questions content at a glance because of the unorganised manner")
 3. The website must allow the user to like/dislike the posted questions to increase authenticity.(Issue Tackled: "filter out the good and bad questions")
-4. The website will be able to sort the posts according to the number of likes and date posted.(Issue Tackled: "therefore it would be useful to earleir posts")
-5. The website will have a search function to search for post.(Issue Tackled: "hard to revisit the same question again")
+4. The website will be able to sort the posts according to the number of likes and date posted.(Issue Tackled: "Also it is really hard to filter out the good and bad questions" and "it is really hard to see old questions")
+5. The website will have a search function to search for posts.(Issue Tackled: "hard to revisit the same question again")
 6. The website will allow users to change passwords.(Issue Tackled: "It has to be secure and thoroughly organised")
 
 # Criteria B: Design
@@ -37,7 +53,7 @@ I will design a social media platform using Bootstrap, HTML, CSS and Flask which
 ## Data Storage
 ![ER Diagram](https://github.com/thumulakaru/Unit-4-project/blob/main/assets/ER_diagram.png)
 
-**Fig.2** *ER diagram of the Website*
+**Fig.2** *ER diagram of the Website
 
 
 ![users Data entry](https://github.com/thumulakaru/Unit-4-project/blob/main/assets/users_data_entry.png)
@@ -49,7 +65,7 @@ I will design a social media platform using Bootstrap, HTML, CSS and Flask which
 **Fig.4** *Example data entry in the posts table*
 
 ## UML Diagram
-![UML Diagram]()
+![UML Diagram](https://github.com/thumulakaru/Unit-4-project/blob/main/assets/UML_diag.png)
 
 **Fig.5** *UML Diagram of the website*
 
@@ -108,18 +124,9 @@ I will design a social media platform using Bootstrap, HTML, CSS and Flask which
 | 27 | Development: Finished the sort function | Have a function that is able to sort the posts according specific criterias | 1 hr | 2023.04.27 | C|
 | 28 | Development: Finished coding the password change page | Have a completed web page for the password change  | 2 hrs | 2023.04.28 | C|
 | 29 | Development: Finished database code for password change | Have a finished a function to change passwords| 30 mins | 2023.04.29 | C|
-| 30 |  | 3 | 4 | 2023.04.30 | 6|
-| 1 | 2 | 3 | 4 | 2023.05.01 | 6|
-| 1 | 2 | 3 | 4 | 2023.05.02 | 6|
-| 1 | 2 | 3 | 4 | 2023.05.03 | 6|
-| 1 | 2 | 3 | 4 | 2023.05.04 | 6|
-| 1 | 2 | 3 | 4 | 2023.05.05 | 6|
-| 1 | 2 | 3 | 4 | 2023.05.06 | 6|
-| 1 | 2 | 3 | 4 | 2023.05.07 | 6|
-| 1 | 2 | 3 | 4 | 2023.05.08 | 6|
-| 1 | 2 | 3 | 4 | 2023.05.09 | 6|
-| 1 | 2 | 3 | 4 | 2023.05.10 | 6|
-| 1 | 2 | 3 | 4 | 2023.05.11 | 6|
+| 30 | Development: Cleaning up the code | To have the code finalised and easy to understand | 4 | 2023.04.30 | C|
+| 31 | Implementation: Evaluation by the client | To have the website evaluated by the client and the relevant evidence documented | 1 hr | 2023.05.07 | E|
+| 32 | Beta Testing: Evaluation by a peer | To have the website evaluated by a peer and the relevant evidence documented | 1 hr | 2023.05.07 | E|
 
 
 
@@ -151,9 +158,7 @@ I will design a social media platform using Bootstrap, HTML, CSS and Flask which
 | Jinja2       |
 | Passlib.hash |
 | dotenv       |
-| Jose         |
 | Sqlalchemy   |
-| Prism.js     |
 
 ## References
 
@@ -168,11 +173,18 @@ ChatGPT is a large language model developed by OpenAI, based on the GPT (Generat
 
 ***Disclaimer*** *No part of this program include code blocks directly copied from ChatGPT*
 
-**[Tabnine AI Code completion](https://www.tabnine.com/)**
+
+### [Tabnine AI Code completion](https://www.tabnine.com/)
 
 Tabnine is an AI code assistant. Tabnine is powered by multiple language-specialized machine learning models that were pre-trained from the ground up on code. This helped to me improve the speed of my programming by giving me predictions for variable names, recalling a variable in the same programme etc.
 
-***Disclaimer*** *No part of this program include code blocks directly generated by *
+***Disclaimer*** *No part of this program include code blocks directly generated by Tabnine*
+
+### [Codepen](https://codepen.io/)
+
+CodePen is a social development environment for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.
+
+***Disclaimer**** *Only the forms were inspired by Codepen*
 
 ## List of techniques used
 
@@ -207,7 +219,7 @@ After inspecting many social media pages and after some discussions with my peer
 
 ![Login page Container](https://github.com/thumulakaru/Unit-4-project/blob/main/assets/login_container.png)
 
-**Fig.10** *This is the above mentioned "containers". All the elements are placed inside this.*
+**Fig.10** *This is the above mentioned "containers". All the elements are displayed are placed inside a container.*
 
 ### JSON tokens(Success Criteria #1)
 
@@ -501,4 +513,41 @@ The above function creates two users and two posts which makes it easier for me 
 
 [Click here for the Video]()
 
+# Criteria E: Evaluation
+
+## Evaluation by the client
+
+| Success Criteria                                                                                                                          | Met? | Description                                                                                                     |
+|-------------------------------------------------------------------------------------------------------------------------------------------|------|-----------------------------------------------------------------------------------------------------------------|
+| The website must keep users separately with an encrypted login system.| Yes  | Users are seperated using a hashed system and a token system.                                                |
+| The website must allow posting of questions and viewing them. | Yes  | A user is able to post a new post via the endpoint, `/new_post`. |
+| The website must allow the user to like/dislike the posted questions to increase authenticity.                                                                                    | Yes  | The website allows users to like and dislike via `/add_accl/` and `/add_dece/` endpoints.                                        |
+| The website will be able to sort the posts according to the number of likes and date posted.| Yes  | The website allows the user to sort posts by time and likes in the `/dashboard` endpoint.|
+| The website will have a search function to search for post.| Yes  | Users are able to search in the endpoint, `dashboard`.|
+| The website will allow users to change passwords.| Yes  | The website allows the user to change their password at the `/change_password` endpoint. |
+
+## Evaluation by Peer
+
+Ask Bernard for this
+
+## Extensibility
+
+The client was very satisfied with the final result. After some discussion with the client it was concluded that the following extensions could be added in the future:
+
+1. Prediction System for the search bar - A prediction system will be added based on the previous inputs of the user and by querying the database to make the search process smooth. This could be easily done with easily adding a new table in the database. 
+
+2. Commenting System - A commeting system is to be added to give more freedom for everyone to discuss their opinions about question and to post the answers. Another table in the database could easily do this.
+
 # Appendix
+
+![Client-Developer agreement](https://github.com/thumulakaru/Unit-4-project/blob/main/assets/success_criteria_approval.png)
+
+**Appendix.1** *Client and the Developer agreeing to the success criteria*
+
+![Client Evalutation Image](https://github.com/thumulakaru/Unit-4-project/blob/main/assets/client_eval.png)
+
+**Appendix.2** *Client evaluation of the website after depolying*
+
+![Peer Evalutation image](https://github.com/thumulakaru/Unit-4-project/blob/main/assets/peer%20eval.png)
+
+**Appendix.3** *Peer evaluation of the website after depolying*
