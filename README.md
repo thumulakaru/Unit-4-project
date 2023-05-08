@@ -10,10 +10,10 @@ Accessed 1st May 2023
 
 ## Problem definition(Client identification)
 
-I am a high school student living in Karuizawa. In our school a quarter of our grade takes physics in International Baccaulaurate Diploma Program(IBDP). Due to restrictions from the curriculum the students are having a hard time to find proper questions that are alligned with IB standards. And whenever the students share questions with each other using SNS like messenger or instagram it's really hard to revisit the same question again and to understand the questions content at a glance because of the unorganised manner.  Also it is really hard to filter out the good and bad questions and also to pass it down to our juniors. Also it is really hard to see old questions. Because of these issues a need was risen for a social networking system to share physics questions within ourselves. I would like to have different users who can post questions. It has to be secure and thoroughly organised.
+I am a high school student living in Karuizawa. In our school a quarter of our grade takes physics in the International Baccalaureate Diploma Program(IBDP). Due to restrictions from the curriculum the students are having a hard time to find proper questions that are aligned with IB standards. And whenever the students share questions with each other using SNS like messenger or instagram it's really hard to revisit the same question again and to understand the questions content at a glance because of the unorganised manner.  Also it is really hard to filter out the good and bad questions and also to pass it down to our juniors. Also it is really hard to see old questions. Because of these issues a need arose for a social networking system to share physics questions within ourselves. I would like to have different users who can post questions. It has to be secure and thoroughly organised.
 
 ## Proposed Solution
-Considering the client's the requirements, an adequate solution would be a SNS that would take the style of social-media webstie. Though one of the most common programming tools to build a website is Javascript it's client sided language[^2] which poses a threat to the security of the website through the easy access to the loopholes which could potentially result in using them for malicious purposes. To avoid this python is a better alternative as it is not client sided, open source and extensive[^3]. To host the website Flask would be a great option as it is highly scalable and provides great control over the code[^4]. As for the database it is better to use a DBMS(Database Management System) which is better to run with smallto medium http requests as the the website is small-scaled. Thus, SQLite is a viable option as it excels at small-medium http reequests and also can run independently after installation[^5]. To interface with SQLite SQLAlchemy would be a one of the best options as it is a seamless integration with web aplications like Flask. Also because it uses eager loading the performance speed is increased[^6]. As for the user interface Bootstrap5 is a very viable option as it is compatible with many of the mordered browsers(Cross-browser compatibility)[^7]. To ensure the security of the website JWT tokens are an adequate solution as it is a client sided token which makes the servers run smoother[^8].
+Considering the client's requirements, an adequate solution would be a SNS that would take the style of a social-media website. Though one of the most common programming tools to build a website is Javascript it's client sided language[^2] which poses a threat to the security of the website through the easy access to the loopholes which could potentially result in using them for malicious purposes. To avoid this python is a better alternative as it is not client sided, open source and extensive[^3]. To host the website Flask would be a great option as it is highly scalable and provides great control over the code[^4]. As for the database it is better to use a DBMS(Database Management System) which is better to run with small to medium http requests as the website is small-scaled. Thus, SQLite is a viable option as it excels at small-medium http requests and also can run independently after installation[^5]. To interface with SQLite SQLAlchemy would be one of the best options as it is a seamless integration with web applications like Flask. Also because it uses eager loading the performance speed is increased[^6]. As for the user interface Bootstrap5 is a very viable option as it is compatible with many of the modern browsers(Cross-browser compatibility)[^7]. To ensure the security of the website JWT tokens are an adequate solution as it is a client sided token which makes the servers run smoother[^8].
 
 [^2]: “Why Use Javascript in 2022? 8 Disadvantages and Advantages of Javascript.” Tino Agency, https://tino.design/blog/14-why-use-javascript-in-2022-8-disadvantages-and-advantages-of-javascript.
 
@@ -85,7 +85,7 @@ I will design a social media platform using Bootstrap, HTML, CSS and Flask which
 ### Displaying Posts
 ![Flow Diagram for Displaying Posts](https://github.com/thumulakaru/Unit-4-project/blob/main/assets/flow_diag_show_posts_flow_diag.png)
 
-**Fig.8** *Flow diagram of the post displaying system. This is used to display posts in the dashboard according to what the user nededs at the moment.*
+**Fig.8** *Flow diagram of the post displaying system. This is used to display posts in the dashboard according to what the user needs at the moment.*
 
 ### Like/Dislike System
 ![Flow Diagram or the Like/Dislike System](https://github.com/thumulakaru/Unit-4-project/blob/main/assets/like_or_dislike_flow_diag.png)
@@ -103,7 +103,7 @@ I will design a social media platform using Bootstrap, HTML, CSS and Flask which
 | 5   | Design: Drawing  Wirefram Diagram  | Have a clear idea of the structure of the website | 40 mins  | 2023.04.05    | B  | 
 | 6   | Design: Researching SQLAlchemy    | Use good coding practices when coding   | 2 hrs | 2023.04.06    | B   |
 | 7 | Design: Designing the flowchart for the liking system    |  Have a clear understanding of how the likes system work  | 20 mins   | 2023.04.07    | B  |
-| 8 | Planning: Writing the problem definiton | Give more context to the need | 30 mins  | 2023.04.08    | A   |
+| 8 | Planning: Writing the problem definition | Give more context to the need | 30 mins  | 2023.04.08    | A   |
 | 9 | Planning: Write down the success criteria(Check Appendix 1) | Have more written context to what is going to be developed  | 30 mins  | 2023.04.09    | A  |
 | 10 | Development: Coding the registration page | have a design for the registration page | 30 mins | 2023.04.10 | C |
 | 11 | Development: Finalising a theme for the pages and applying them| Have consistency throughout the website | 2 hrs | 2023.04.11 | C|
@@ -114,10 +114,10 @@ I will design a social media platform using Bootstrap, HTML, CSS and Flask which
 | 16 | Development: Started coding the SQLAlchemy part for user validation | Have a completed user validation | 30 mins | 2023.04.16 | C|
 | 17 | Development: Code a template for the questions to be posted | Have a template for the questions to be displayed | 1 hr | 2023.04.17 | C|
 | 18 | Development: Started working on new post entry page | Have a new post entry page | 30 mins | 2023.04.18 | C|
-| 19 | Development: Did research on how search bars work in a database | Have a clear idea on how to make the searcg function | 30 mins | 2023.04.19 | C|
+| 19 | Development: Did research on how search bars work in a database | Have a clear idea on how to make the search function | 30 mins | 2023.04.19 | C|
 | 20 | Development: Started working on the profile page | Make some progress on this page | 1 hr | 2023.04.20 | C|
 | 21 | Development: Finished coding the search function from the database | Have a working search function | 20 mins | 2023.04.21 | C|
-| 22 | Development: Finished coding the valiidation function | Have a validation functions for email, title and content inputs | 30 mins | 2023.04.22 | C|
+| 22 | Development: Finished coding the validation function | Have a validation functions for email, title and content inputs | 30 mins | 2023.04.22 | C|
 | 23 | Development: Start working on the JSON token validation | Have a base function that will be able to encrypt the user details and use it | 1 hr | 2023.04.23 | C|
 | 24 | Development: Applied JSON tokens to the flask app| Secure the website when it is necessary | 1 hr | 2023.04.24 | C|
 | 25 | Development: Debugging the Database Handler | Reduce the bugs in the program | 2 hrs | 2023.04.25 | C|
@@ -138,13 +138,13 @@ I will design a social media platform using Bootstrap, HTML, CSS and Flask which
 |   Unit Testing   |   User Registration   |   1.Open Website<br> 2.Click on the register button <br>3.Put "bob" as the username, bob@gmail.com as the email and "bob@1234" for both password fields <br>4. Click the register button on the screen.                                                   |The user should be redirected into the login page with a flash message stating that the user has been registered successfully.    |
 |   Unit Testing   | User Login            | 1.Open Website<br />2. Put "bob" as the username and "bob@1234" as the password<br />3. Click the login button on the login card                                                                                                                                        | The user should be redirected to the dashboard page of the page if the user exists and the password matches the hash in the database.                                                                            
 |   Unit Testing   | User Logout                 | 1.Open Website and login using the above credentials <br> 2. Click the logout button in the top bar of the dashboard                                                                                                                                | The user should be redirected to the dashboard page of the page if the user exists and the password matches the hash in the database.                                                                            
-| Integration Testing  | Login and Registration     | 1.Open Webiste<br />2.Follow the above instuctions for registering a new user. <br />3.Follow the instruction and login to the website properly. <br />                                                                                     | If the user followed the instructions properly and registered for a user, they should be able to login to the website without a problem                                    | 
-| Unit Testing         | Changing Password          | 1.Open Website and login with the instructions given above<br/> 2. Click the button "my profile" in the header<br />3. Inpute the previous password in the relevant field and enter "changeme1" into both the new password and confirm new passwords sections.<br />4. Input the current password of the current user and put "changeme" for new and confirm password. <br />5. Click Confirm                          | If the user followed the instructions properly and no errors were displayed in the page during the process, the user should be able to logout and log back into the same user with the same username but with password "changeme". |
+| Integration Testing  | Login and Registration     | 1.Open Website<br />2.Follow the above instructions for registering a new user. <br />3.Follow the instructions and login to the website properly. <br />                                                                                     | If the user followed the instructions properly and registered for a user, they should be able to login to the website without a problem                                    | 
+| Unit Testing         | Changing Password          | 1.Open Website and login with the instructions given above<br/> 2. Click the button "my profile" in the header<br />3. Input the previous password in the relevant field and enter "changeme1" into both the new password and confirm new passwords sections.<br />4. Input the current password of the current user and put "changeme" for the new and confirm password fields. <br />5. Click Confirm                          | If the user followed the instructions properly and no errors were displayed in the page during the process, the user should be able to logout and log back into the same user with the same username but with password "changeme". |
 | Unit Testing         | Adding new post            | 1.Open Website and login using the above credentials. <br />2.Click New Post on the header in the dashboard. <br />3. Put in "My first question" as the Title, "State the 2nd law of Newton" as the Content.<br />4.Click the submit button | If there were no errors shown in the web page the user should be redirected to the dashboard, where they can see all of their posts which will include the one that they just posted.                                                                                 |
 | Unit Testing         | Like/Dislike a post        | 1.Open Website and login with the instructions given above.<br />2.Click on the like button of a post<br />4.Click on the dislike button of another post                                                                                                                                                     | The user should be able to see the like count of the post increase by 1 for the first post and decrease by 1 for the second one.                                                                                 |
-| Intergration Testing | Adding Post / Viewing Post | 1.Open Website and login using the above instructions. <br />2.Create a new post following the instructions above<br />4.Click the home button.                                                                                                                                                           | The user should be able to see the post they just created on the top of the dashboard.|
+| Integration Testing | Adding Post / Viewing Post | 1.Open Website and login using the above instructions. <br />2.Create a new post following the instructions above<br />4.Click the home button.                                                                                                                                                           | The user should be able to see the post they just created on the top of the dashboard.|
 | Unit Testing         | Sorting System by like/posted time             | 1.Open Website and login using the above instructions. <br />2. Click the sort by likes button. <br/>3. Click the sort by date button.|                                                                                                                                                       | The user should be able to see posts sorted by the highest like count after the 2nd step and after the 3rd step they should be able to see the oldest post first and the latest post by the end.
-| Unit Testing	        | Search system | 1. Open website and login using the above instrutions.<br/> 2. Enter a new post using the instructions giving <br/>3. Click on the search bar and enter "My first question" and press the "enter" button on the keyboard. | The user should be able to see a question |                                                                                                                         
+| Unit Testing	        | Search system | 1. Open the website and login using the above instructions.<br/> 2. Enter a new post using the instructions giving <br/>3. Click on the search bar and enter "My first question" and press the "enter" button on the keyboard. | The user should be able to see a question |                                                                                                                         
 | Code Review          | Reviewing Code             | Going through the code and making sure unused parts are removed, variables are named properly and comments are placed appropriated                                                                                                                                           | Easy to understand and easy to debug code for future development.                                                                                                                                                
                                                            
 
@@ -170,14 +170,14 @@ Bootstrap 5's official documentation is what I referenced many of my ui elements
 
 ### [ChatGPT](chat.openai.com)
 
-ChatGPT is a large language model developed by OpenAI, based on the GPT (Generative Pre-trained Transformer) architecture. It helped me with understaing the logic behind certain parts of codes and formulate sentences to communicate certain messages to the user better.
+ChatGPT is a large language model developed by OpenAI, based on the GPT (Generative Pre-trained Transformer) architecture. It helped me with understanding the logic behind certain parts of codes and formulate sentences to communicate certain messages to the user better.
 
 ***Disclaimer*** *No part of this program include code blocks directly copied from ChatGPT*
 
 
 ### [Tabnine AI Code completion](https://www.tabnine.com/)
 
-Tabnine is an AI code assistant. Tabnine is powered by multiple language-specialized machine learning models that were pre-trained from the ground up on code. This helped to me improve the speed of my programming by giving me predictions for variable names, recalling a variable in the same programme etc.
+Tabnine is an AI code assistant. Tabnine is powered by multiple language-specialised machine learning models that were pre-trained from the ground up on code. This helped me improve the speed of my programming by giving me predictions for variable names, recalling a variable in the same programme etc.
 
 ***Disclaimer*** *No part of this program include code blocks directly generated by Tabnine*
 
@@ -212,7 +212,7 @@ After inspecting many social media pages and after some discussions with my peer
 ```html
 <form style="border:1px solid #ccc" method="post">
 	<div class="container">
-	{# Code of the sign in fields inside the card is omitted for demonstration puposes#}
+	{# Code of the sign in fields inside the card is omitted for demonstration purposes#}
 	</div>
 </form>
 	
@@ -220,11 +220,11 @@ After inspecting many social media pages and after some discussions with my peer
 
 ![Login page Container](https://github.com/thumulakaru/Unit-4-project/blob/main/assets/login_container.png)
 
-**Fig.10** *This is the above mentioned "containers". All the elements are displayed are placed inside a container.*
+**Fig.10** *This is the above-mentioned "container". All the elements displayed are placed inside a container.*
 
 ### JSON tokens(Success Criteria #1)
 
-One of the success criterias was to have an encrypted login system. The issue with using cookies for me was that I could not store the username nor the user id without it being open to threats like the user modifying them through various methods. My classmates(Bernard-LTW and Alsa2) introduced me to this session tokens. They could contain details and would expire after the session ends which the developer is able to specify. These tokens are able to protect the user details as it is hashed using a special secret key that the only the developer has the control to change. The first edition of this website creates a token when a user successfully logged in the flask endpoint executes a function named `generate_token` from the file `token_manager.py`.
+One of the success criterias was to have an encrypted login system. The issue with using cookies for me was that I could not store the username nor the user id without it being open to threats like the user modifying them through various methods. My classmates(Bernard-LTW and Alsa2) introduced me to this session tokens. They could contain details and would expire after the session ends which the developer is able to specify. These tokens are able to protect the user details as it is hashed using a special secret key that only the developer has the control to change. The first edition of this website creates a token when a user successfully logged in the flask endpoint executes a function named `generate_token` from the file `token_manager.py`.
 ```py
 # This function creates a session token for a given duration and stores an encrypted version of the username
 def generate_token(username, token_duration): # token duration should be in minutes
@@ -266,7 +266,7 @@ def check_token(token): #check if token is valid and not expired
         return False
 ```
 
-The main function then recieves a boolean value of whether the user is in a valid session and will allow if they are to do the action. This system closes the loophole of modifying cookies and completes the hashed authentication system criteria.
+The main function then receives a boolean value of whether the user is in a valid session and will allow if they are to do the action. This system closes the loophole of modifying cookies and completes the hashed authentication system criteria.
 
 ### Header and Footers
 
@@ -303,15 +303,15 @@ As you can see from the above code I have used the `<header>` tag which includes
 
 **Fig.11** *This is the above mentioned header. All the icons in this are linked to a webpage*
 
-### Base Template(Pattern Recogniton, Abstraction)
+### Base Template(Pattern Recognition, Abstraction)
 
-As I mentioned above the header and footer needs to be present in many of the web pages. But adding this entire piece of code again and again to every single web page makes my code very repitetive and very lengthy. Thus, I was inspired by one of my classmate's solution for this which was using a base template. This template file will be the only file that includes the header and footer. The way I decided to design this file was to start off as a normal html file and the in the `<body>` I added a piece of Jinja code to import the elements from other html files.
+As I mentioned above the header and footer needs to be present in many of the web pages. But adding this entire piece of code again and again to every single web page makes my code very repetitive and very lengthy. Thus, I was inspired by one of my classmate's solution for this which was using a base template. This template file will be the only file that includes the header and footer. The way I decided to design this file was to start off as a normal html file and then in the `<body>` I added a piece of Jinja code to import the elements from other html files.
 
 ```.html
 {% block content%}{% endblock %}
 ```
 
-This creates an empty space that is able to have html code inside. Using this I only have to extend the base template to the necessary html file and define the `block` which are the elements that needs to be shown in the webpage.
+This creates an empty space that is able to have html code inside. Using this I only have to extend the base template to the necessary html file and define the `block` which are the elements that need to be shown in the webpage.
 
 
 Here's the code for extending the base template.
@@ -326,16 +326,16 @@ Here's the code for defining the block in the necessary html file.
 {% endblock %}
 ```
 
-When this file is load into the browser the variables in the file and the base template are put together and displayed.
+When this file is loaded into the browser the variables in the file and the base template are put together and displayed.
 
-### Post insert and representation(Succes Criteria #2)
-The client requires to insert the posts and display the posts. To insert a new post I used a simple form embedded with basic valdation. The data is then inserted into a databaase. Which in intself are very easy tasks. Here is an image of the form that I used to collect the data. 
+### Post insert and representation(Success Criteria #2)
+The client requires to insert the posts and display the posts. To insert a new post I used a simple form embedded with basic validation. The data is then inserted into a database. Which in itself are very easy tasks. Here is an image of the form that I used to collect the data. 
 
 ![Post insert form](https://github.com/thumulakaru/Unit-4-project/blob/main/assets/new_entry.png)
 
-**Fig.12** *This is the form that is ued to input the data into the form.*
+**Fig.12** *This is the form that is used to input the data into the form.*
 
-The harder part of this client requirement was to display the posts as they needed to be repeateted infinitely depending on the number of posts. Thus, including the same piece of code many times I decided to use `jijna2` extension for `html`and repeat an array given to the website. The given posts array is run through `{% for post in posts %}` to get each element inside the array. Here is the full code that I used to represent all the posts that was entered to the database.
+The harder part of this client requirement was to display the posts as they needed to be repeated infinitely depending on the number of posts. Thus, including the same piece of code many times I decided to use the `jinja2` extension for `html`and repeat an array given to the website. The given posts array is run through `{% for post in posts %}` to get each element inside the array. Here is the full code that I used to represent all the posts that was entered to the database.
 
 ```.html
 {% for post in posts %}
@@ -355,11 +355,11 @@ Here is an image of what the final output looks like:
 
 ![Post Image](https://github.com/thumulakaru/Unit-4-project/blob/main/assets/post_image.png)
 
-**Fig.13** *This is the post that user would see. The two posts are taken from the database.*
+**Fig.13** *This is the post that the user would see. The two posts are taken from the database.*
 
 
 ### Like/Dislike System(Success Criteria #3)
-The client also required to have a way to sort the questions with how helpful they are. To implement this I decided to add a like/dislike system to the posts. Each post in the database have a like counter and when the like/dislike button is clicked the database gets updated. And thrugh this the new like count is displayed with a reload of the page.
+The client is also required to have a way to sort the questions with how helpful they are. To implement this I decided to add a like/dislike system to the posts. Each post in the database has a like counter and when the like/dislike button is clicked the database gets updated. And through this the new like count is displayed with a reload of the page.
 
 This is the code for the like/dislike system in the webpage.
 
@@ -371,7 +371,7 @@ This is the code for the like/dislike system in the webpage.
 ```
 
 ### Sorting System(Success Criteria #4)
-The client wanted a way to revisit the past questions and good questions easier. Thus, I decided to add a sorting system. And the posts are sorted using the date posted and the number of likes. To do this I created an algorithm that sorts the posts out and that algorithm is combined with the sorting function for the search function in success criteria #5. The reason for this is that both of them were quite similar to each other and rather than running multiple functions to output the posts I just combined them. This is one of the main ocassions that I used the DRY principal as I avoided a part where it was possible to repeat.
+The client wanted a way to revisit the past questions and good questions easier. Thus, I decided to add a sorting system. And the posts are sorted using the date posted and the number of likes. To do this I created an algorithm that sorts the posts out and that algorithm is combined with the sorting function for the search function in success criteria #5. The reason for this is that both of them were quite similar to each other and rather than running multiple functions to output the posts I just combined them. This is one of the main occasions that I used the DRY principle as I avoided a part where it was possible to repeat.
 
 The algorithm for this is the function,`search_posts_by_x()` in the `db_handler.py`. The algorithm is quite simple. In the website there's two buttons to either sort by date or likes and to remove the sort filter. The code to get the user option is as follows:
 ```.html
@@ -442,11 +442,11 @@ I used a form with the `GET` method to get this input. Bootstrap was used in the
 
 The algorithm for this is given in the Success Criteria #4 description above. As a programmer I do not want to repeat myself thus, I won't be including it here.
 
-### Change Password(Success Crieteria #6)
+### Change Password(Success Criteria #6)
 
-FInally my client also wanted to have the option to change the password. To achieve this I created a change password function that is able to change the password when the old and new passwords are given. The function is implemented `/change_password` endpoint in the `app.py` file.
+FInally my client also wanted to have the option to change the password. To achieve this I created a change password function that is able to change the password when the old and new passwords are given. The function is implemented in the `/change_password` endpoint in the `app.py` file.
 
-The data taken from the webpage is validated and since it is not repetetitive I coded it directly into the endpoint file. Here is the validation that it is run through(The else sentences are ommitted to shorten the length of the code):
+The data taken from the webpage is validated and since it is not repetitive I coded it directly into the endpoint file. Here is the validation that it is run through(The else sentences are omitted to shorten the length of the code):
 ```.py
                 if check_password(old_pw, user.password):
                     if validate_password(new_pw_1):
@@ -478,7 +478,7 @@ def error_handler():
 
 ### Initialising Database and Inserting Dummy Data
 
-Throughout the development cycle inserting dummy data is an important part as it helps me(the developer) to get check if the functions are working properly by predicting an output. Thus, I initialised the database and added dummy data so that I would be able to predict certian outputs.
+Throughout the development cycle inserting dummy data is an important part as it helps me(the developer) to get check if the functions are working properly by predicting an output. Thus, I initialised the database and added dummy data so that I would be able to predict certain outputs.
 Here is the code for the inserting dummy data:
 ```.py
 from db_handler import database_handler as dbh
@@ -530,14 +530,14 @@ The above function creates two users and two posts which makes it easier for me 
 
 | Success Criteria                                                                                                                          | Met? | Description                                                                                                     |
 |-------------------------------------------------------------------------------------------------------------------------------------------|------|-----------------------------------------------------------------------------------------------------------------|
-| The website must keep users separately with an encrypted login system.| Yes  | Users are seperated using a hashed system and a token system.                                                |
+| The website must keep users separately with an encrypted login system.| Yes  | Users are separated using a hashed system and a token system.                                                |
 | The website must allow posting of questions and viewing them. | Yes  | A user is able to post a new post via the endpoint, `/new_post`. |
 | The website must allow the user to like/dislike the posted questions to increase authenticity.                                                                                    | Yes  | The website allows users to like and dislike via `/add_accl/` and `/add_dece/` endpoints.                                        |
 | The website will be able to sort the posts according to the number of likes and date posted.| Yes  | The website allows the user to sort posts by time and likes in the `/dashboard` endpoint.|
-| The website will have a search function to search for post.| Yes  | Users are able to search in the endpoint, `dashboard`.|
+| The website will have a search function to search for posts.| Yes  | Users are able to search in the endpoint, `dashboard`.|
 | The website will allow users to change passwords.| Yes  | The website allows the user to change their password at the `/change_password` endpoint. |
 
-The client is very satisfied with the product(Check Appendix 2) achieving all the success criteria. During the beta testing stage, the client suggested to add a page where you can edit the posts. And also to increase the authernticity of the likes to limit the number of likes that a user can do. Both of these suggestions will be added in the second stage of development.
+The client is very satisfied with the product(Check Appendix 2) achieving all the success criteria. During the beta testing stage, the client suggested adding a page where you can edit the posts. And also to increase the authenticity of the likes to limit the number of likes that a user can do. Both of these suggestions will be added in the second stage of development.
 
 ## Evaluation by Peer
 My peer is very satisfied with the product(Check Appendix 3) achieving all the success criteria. Adding a comment section and restricting the number of likes per user to one were suggestions given by my peer. Which were later discussed with the client. 
@@ -549,7 +549,7 @@ The client was very satisfied with the final result. After some discussion with 
 
 1. Prediction System for the search bar - A prediction system will be added based on the previous inputs of the user and by querying the database to make the search process smooth. This could be easily done with easily adding a new table in the database. 
 
-2. Commenting System - A commeting system is to be added to give more freedom for everyone to discuss their opinions about question and to post the answers. Another table in the database could easily do this.
+2. Commenting System - A commenting system is to be added to give more freedom for everyone to discuss their opinions about questions and to post the answers. Another table in the database could easily do this.
 
 3. More authenticated liking system - The liking system to be improved by limiting the number of likes to one per user per post. Another row in the posts table could easily do this though some tweaking in CSS and HTML is required.
 
@@ -560,10 +560,11 @@ The other suggestions that were suggested were discarded as the client found the
 
 **Appendix.1** *Client and the Developer agreeing to the success criteria*
 
-![Client Evalutation Image](https://github.com/thumulakaru/Unit-4-project/blob/main/assets/client_eval.png)
+![Client Evaluation Image](https://github.com/thumulakaru/Unit-4-project/blob/main/assets/client_eval.png)
 
-**Appendix.2** *Client evaluation of the website after depolying*
+**Appendix.2** *Client evaluation of the website after deploying*
 
-![Peer Evalutation image](https://github.com/thumulakaru/Unit-4-project/blob/main/assets/peer%20eval.png)
+![Peer Evaluation image](https://github.com/thumulakaru/Unit-4-project/blob/main/assets/peer%20eval.png)
 
-**Appendix.3** *Peer evaluation of the website after depolying*
+**Appendix.3** *Peer evaluation of the website after deploying*
+
