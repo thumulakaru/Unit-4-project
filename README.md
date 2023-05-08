@@ -104,7 +104,7 @@ I will design a social media platform using Bootstrap, HTML, CSS and Flask which
 | 6   | Design: Researching SQLAlchemy    | Use good coding practices when coding   | 2 hrs | 2023.04.06    | B   |
 | 7 | Design: Designing the flowchart for the liking system    |  Have a clear understanding of how the likes system work  | 20 mins   | 2023.04.07    | B  |
 | 8 | Planning: Writing the problem definiton | Give more context to the need | 30 mins  | 2023.04.08    | A   |
-| 9 | Planning: Write down the success criteria | Have more written context to what is going to be developed  | 30 mins  | 2023.04.09    | A  |
+| 9 | Planning: Write down the success criteria(Check Appendix 1) | Have more written context to what is going to be developed  | 30 mins  | 2023.04.09    | A  |
 | 10 | Development: Coding the registration page | have a design for the registration page | 30 mins | 2023.04.10 | C |
 | 11 | Development: Finalising a theme for the pages and applying them| Have consistency throughout the website | 2 hrs | 2023.04.11 | C|
 | 12 | Development: Code the header and footer | Have a finished footer and header | 1 hr | 2023.04.12 | C|
@@ -527,8 +527,10 @@ The above function creates two users and two posts which makes it easier for me 
 | The website will have a search function to search for post.| Yes  | Users are able to search in the endpoint, `dashboard`.|
 | The website will allow users to change passwords.| Yes  | The website allows the user to change their password at the `/change_password` endpoint. |
 
-## Evaluation by Peer
+The client is very satisfied with the product(Check Appendix 2) achieving all the success criteria. During the beta testing stage, the client suggested to add a page where you can edit the posts. And also to increase the authernticity of the likes to limit the number of likes that a user can do. Both of these suggestions will be added in the second stage of development.
 
+## Evaluation by Peer
+My peer is very satisfied with the product(Check Appendix 3) achieving all the success criteria. Adding a comment section and restricting the number of likes per user to one were suggestions given by my peer. Which were later discussed with the client. 
 
 
 ## Extensibility
@@ -539,6 +541,9 @@ The client was very satisfied with the final result. After some discussion with 
 
 2. Commenting System - A commeting system is to be added to give more freedom for everyone to discuss their opinions about question and to post the answers. Another table in the database could easily do this.
 
+3. More authenticated liking system - The liking system to be improved by limiting the number of likes to one per user per post. Another row in the posts table could easily do this though some tweaking in CSS and HTML is required.
+
+The other suggestions that were suggested were discarded as the client found them less important than the above. If the client thinks that the other suggestions are stil necessary after development stage 2, they will be implemented in the development stage 3.
 # Appendix
 
 ![Client-Developer agreement](https://github.com/thumulakaru/Unit-4-project/blob/main/assets/success_criteria_approval.png)
