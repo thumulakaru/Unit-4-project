@@ -465,6 +465,17 @@ After the validation the data is put to the database function. Which is as follo
         self.session.commit()
 ```
 
+### Token Timeout(Pattern recognition)
+
+In the program I had a validation to check if the user had the session token(Check Success Criteria 1# in Development). And whenever the session token was not valid I had to repeat the same message over and over again. Because of this I wrote a function which was called out when the session token was not valid. Here is the function that was written to avoid repetition.
+
+```.py
+def error_handler():
+    flash(("User timed out. Please try again", "danger"))
+    return redirect(url_for("login"))
+```
+
+
 ### Initialising Database and Inserting Dummy Data
 
 Throughout the development cycle inserting dummy data is an important part as it helps me(the developer) to get check if the functions are working properly by predicting an output. Thus, I initialised the database and added dummy data so that I would be able to predict certian outputs.
@@ -505,8 +516,7 @@ def dummy_insert_post():
 dummy_insert_user()
 dummy_insert_post()
 ``` 
-The above function creates two users and two posts which makes it easier for me to test my code in later stages. This also reduced the time that I have to spend manually adding data to see if my ccode works properly.
-
+The above function creates two users and two posts which makes it easier for me to test my code in later stages. This also reduced the time that I have to spend manually adding data to see if my code works properly.
 
 # Criteria D: Functionality
 
