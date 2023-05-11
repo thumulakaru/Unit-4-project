@@ -187,8 +187,6 @@ CodePen is a social development environment for front-end designers and develope
 
 ***Disclaimer**** *Only the forms were inspired by Codepen*
 
-### [Peers]()
-
 
 ## List of techniques used
 
@@ -525,7 +523,7 @@ The above function creates two users and two posts which makes it easier for me 
 
 ## Demonstration Video
 
-[Click here for the Video]()
+[Click here for the Video](https://youtu.be/PMrHwBwcfrw)
 
 # Criteria E: Evaluation
 
